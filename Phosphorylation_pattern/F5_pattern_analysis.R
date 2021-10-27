@@ -1,4 +1,4 @@
-path = "C:/Users/monar/Google Drive/Arbeit/Drube et al. phosphorylation pattern/"
+path = "C:/path/to/folder/"
 setwd(path)
 
 wants <- c("openxlsx", "pheatmap", "rstatix", "stringr", "ggplot2", "hrbrthemes", "RColorBrewer")

@@ -1,4 +1,4 @@
-path = "C:/Users/monar/Google Drive/Arbeit/Drube et al. statistics/201130_Auswertung/Formatted baseline data/"
+path = "C:/path/to/folder/"
 setwd(path)
 
 wants <- c("multcomp", "ez", "ggpubr", "rstatix", "openxlsx", "stringr", "dplyr")

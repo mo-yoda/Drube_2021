@@ -1,5 +1,5 @@
 # path for results export
-path = "C:/Users/monar/Google Drive/Arbeit/2021_Drube_et_al/210929_other statistics"
+path = "C:/path/to/folder/"
 
 setwd(path)
 

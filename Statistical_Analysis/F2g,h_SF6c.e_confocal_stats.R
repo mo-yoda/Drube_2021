@@ -1,6 +1,6 @@
 # path definition
 # home PC
-path = "C:/Users/monar/Google Drive/Arbeit/2021_Drube_et_al/211011_confocal statistics"
+path = "C:/path/to/folder/"
 setwd(path)
 
 # packages

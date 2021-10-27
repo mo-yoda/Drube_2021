@@ -1,5 +1,5 @@
 # path definition
-path = "C:/Users/monar/Google Drive/Arbeit/2021_Drube_et_al/210909_Drube et al._vehicle vs. stim"
+path = "C:/path/to/folder/"
 setwd(path)
 
 # format two.sided
