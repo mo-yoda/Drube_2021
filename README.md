@@ -91,7 +91,9 @@ Supplementary Figure 6c, e).
 
 [**F4_SF9_ST4_AT1R.R**](https://github.com/mo-yoda/Drube_2021/blob/main/Statistical_Analysis/F4_SF9_ST4_AT1R.R):
  Statistical analysis of beta-arrestin recruitment to AT1R under various conditions as presented in Figure4, 
-Supplementary Figure 9 and 10. Results are liste in Supplementary Table 4.
+Supplementary Figure 9 and 10. Results are liste in Supplementary Table 4. Data was preprocessed before statistical 
+analysis using
+[**compare_format.py**](https://github.com/mo-yoda/Drube_2021/blob/main/Preprocessing/compare_format.py).
 
 [**SF12_Losartan_Tolvaptan_analysis.R**](https://github.com/mo-yoda/Drube_2021/blob/main/Statistical_Analysis/SF12_Losartan_Tolvaptan_analysis.R):
 Statistical analysis of beta-arrestin recruitment under application of inverse agonists as displayed in Supplementary Figure 12.
