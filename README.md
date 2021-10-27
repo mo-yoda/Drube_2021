@@ -42,11 +42,17 @@ To identify increased baselines
 was employed (Supplementary Figure 5).
 
 ### Phosphorylation Pattern Analysis
-Potential phosphorylation sites (P), clusters (PPP, PXPP) and patterns (PXPXXP, PXXPXXP) were identified in 
+Potential phosphorylation sites (P), clusters (PPP, PXPP 
+[ref](https://pubmed.ncbi.nlm.nih.gov/10542263/)
+) and patterns (PXPXXP, PXXPXXP
+[ref](https://pubmed.ncbi.nlm.nih.gov/28753425/)
+) were identified in 
 the intracellular loop 3 (IL3) and the C-terminus (C-term) of the investigated GPCRs using 
 [**moving_frame.py**](https://github.com/mo-yoda/Drube_2021/blob/main/Phosphorylation_pattern/moving_frame.py).
 Input data of following format was used as input in which each GPCR-barr pair is listed with their GRK preference, the 
-class of the GPCR and the IL3 or C-term amino acid sequence.
+class of the GPCR (according to 
+[Oakley et al. 1999](https://pubmed.ncbi.nlm.nih.gov/10542263/)
+) and the IL3 or C-term amino acid sequence. Aminio acid sequences were obtained from [GPCRdb](https://gpcrdb.org/).
 
 | GPCR | barr | GRK | arr_class | IL3_or_Cterm | seq |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
