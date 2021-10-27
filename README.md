@@ -45,8 +45,12 @@ was employed (Supplementary Figure 5).
 Potential phosphorylation sites (P), clusters (PPP, PXPP) and patterns (PXPXXP, PXXPXXP) were identified in 
 the intracellular loop 3 (IL3) and the C-terminus (C-term) of the investigated GPCRs using 
 [**moving_frame.py**](https://github.com/mo-yoda/Drube_2021/blob/main/Phosphorylation_pattern/moving_frame.py).
+Input data of following format was used as input in which each GPCR-barr pair is listed with their GRK preference, the 
+class of the GPCR and the IL3 or C-term amino acid sequence.
 
-
+| GPCR | barr | GRK | arr_class | IL3_or_Cterm | seq |
+| ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
+| b2AR | barr1 | GRK2356 | A | IL3 | GRFHVQNLSQVEQDGRTGHGLRRS |
 
 The number of identified phosphorylation sites, clusters and patterns are listed as part of Supplementary Table 2.
 The count and relative position of these phosphorylation sites were visualized grouped by GRK-preference or class 
