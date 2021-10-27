@@ -20,10 +20,14 @@ DOI: https://doi.org/10.1101/2021.02.12.430971
 [*] contributed equally
 
 ---
+
+
 This code was written and used for statistical analysis and visualisation of data included in 
 [Drube et al. 2021](https://doi.org/10.1101/2021.02.12.430971). Since part of the code was 
 expanded during the revision process, figure references might not be available in the preprint. As soon
 as the manuscript is published, it will be linked here.
+
+
 ---
 
 ### Statistical Analysis of all twelve tested GPCRs
