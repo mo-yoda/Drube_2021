@@ -1,4 +1,4 @@
-# Visualisation and Statistical Analysis of   
+# Visualisation and Statistical Analysis
 ## GRK2/3/5/6 knockout: The impact of individual GRKs on arrestin-binding and GPCR regulation
 
 Julia Drube*[1] , Raphael Silvanus Haider*[1] , Edda Sofie Fabienne Matthees[1], Mona Reichel[1], 
@@ -42,9 +42,16 @@ To identify increased baselines
 was employed (Supplementary Figure 5).
 
 ### Phosphorylation Pattern Analysis
-
-
-
+Potential phosphorylation sites (P), clusters (PPP, PXPP) and patterns (PXPXXP, PXXPXXP) were identified in 
+the intracellular loop 3 (IL3) and the C-terminus (C-term) of the investigated GPCRs using 
+[**moving_frame.py**](https://github.com/mo-yoda/Drube_2021/blob/main/Phosphorylation_pattern/moving_frame.py).
+The number of identified phosphorylation sites, clusters and patterns are listed as part of Supplementary Table 2.
+The count and relative position of these phosphorylation sites were visualized grouped by GRK-preference or class 
+of GPCR 
+[**F5_pattern_analysis.R**](https://github.com/mo-yoda/Drube_2021/blob/main/Phosphorylation_pattern/F5_pattern_analysis.R). 
+Generated plots are presented in Figure 5. A possible association between the relative position of PXPP clusters and 
+GRK-preference or class of the GPCR was investigated in 
+[**F5_Fisher_details.R**](https://github.com/mo-yoda/Drube_2021/blob/main/Statistical_Analysis/F5_Fisher_details.R).
 
 
 ### Statistical Analysis of Miscellaneous Datasets
@@ -58,8 +65,18 @@ Comparison of different EC50 as presented in Figure 1h-j.
 Comparison of colocalisation quantified from confocal microscopy before and after stimulation (Figure 2g ,h and 
 Supplementary Figure 6c, e).
 
-
 [**F4_SF9_ST4_AT1R.R**](https://github.com/mo-yoda/Drube_2021/blob/main/Statistical_Analysis/F4_SF9_ST4_AT1R.R):
- 
-Beta-arrestin recruitment to AT1R under various conditions is presented in Figure4, Supplementary Figure 9 and 10.
-Statistical analy
+ Statistical analysis of beta-arrestin recruitment to AT1R under various conditions as presented in Figure4, 
+Supplementary Figure 9 and 10. Results are liste in Supplementary Table 4.
+
+[**SF12_Losartan_Tolvaptan_analysis.R**](https://github.com/mo-yoda/Drube_2021/blob/main/Statistical_Analysis/SF12_Losartan_Tolvaptan_analysis.R):
+Statistical analysis of beta-arrestin recruitment under application of inverse agonists as displayed in Supplementary Figure 12.
+
+[**SF1_stats.R**](https://github.com/mo-yoda/Drube_2021/blob/main/Statistical_Analysis/SF1_stats.R):
+Statistical analysis of datasets presented in Supplementary Figure 1b, e and g.
+
+[**SF8_V2R_endo_KD_analysis.R**](https://github.com/mo-yoda/Drube_2021/blob/main/Statistical_Analysis/SF8_V2R_endo_KD_analysis.R):
+Statstical analysis of beta-arrestin recruitment to V2R (Supplementary Figure 8) and AT1R 
+(Supplementary Figure 9d and f) in presence of catalitically inactive GRKs or endogenous expression 
+of one specific GRK isoform.
+
