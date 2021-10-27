@@ -19,4 +19,23 @@ DOI: https://doi.org/10.1101/2021.02.12.430971
 
 [*] contributed equally
 
+---
+This code was written and used for statistical analysis and visualisation of data included in 
+[Drube et al. 2021](https://doi.org/10.1101/2021.02.12.430971). Since part of the code was 
+expanded during the revision process, figure references might not be available in the preprint. As soon
+as the manuscript is published, it will be linked here.
 
+[**F1d,f_SF2c_GRK_expression.R**](https://github.com/mo-yoda/Drube_2021/blob/main/Statistical_Analysis/F1d%2Cf_SF2c_GRK_expression.R)
+: Statistical analysis of GRK expression data presented in Figure 1d, f and Supplementary Figure 2c was statistically analysed.
+
+[**F1h_EC50.R**](https://github.com/mo-yoda/Drube_2021/blob/main/Statistical_Analysis/F1h_EC50.R)
+: Comparison of different EC50 as presented in Figure 1h-j.
+
+[**F2g,h_SF6c,e_confocal.R**]()
+
+
+
+
+[**ST1_vehicle_vs_stim.R**](https://github.com/mo-yoda/Drube_2021/blob/main/Statistical_Analysis/ST1_vehicle_vs_stim.R)
+: All concentration response curves presented, were statistically analysed using to determine functional recruitment. 
+Results are listed in Supplementary Table 1.
