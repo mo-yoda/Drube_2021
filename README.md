@@ -41,7 +41,6 @@ To identify increased baselines
 [**SF5_baseline_analysis.R**](https://github.com/mo-yoda/Drube_2021/blob/main/Statistical_Analysis/SF5_baseline_analysis.R)
 was employed (Supplementary Figure 5).
 
-
 ### Phosphorylation Pattern Analysis
 
 
@@ -49,13 +48,18 @@ was employed (Supplementary Figure 5).
 
 
 ### Statistical Analysis of Miscellaneous Datasets
-[**F1d,f_SF2c_GRK_expression.R**](https://github.com/mo-yoda/Drube_2021/blob/main/Statistical_Analysis/F1d%2Cf_SF2c_GRK_expression.R)
-: Statistical analysis of GRK expression data presented in Figure 1d, f and Supplementary Figure 2c was statistically analysed.
+[**F1d,f_SF2c_GRK_expression.R**](https://github.com/mo-yoda/Drube_2021/blob/main/Statistical_Analysis/F1d%2Cf_SF2c_GRK_expression.R):
+Statistical analysis of GRK expression data presented in Figure 1d, f and Supplementary Figure 2c was statistically analysed.
 
-[**F1h_EC50.R**](https://github.com/mo-yoda/Drube_2021/blob/main/Statistical_Analysis/F1h_EC50.R)
-: Comparison of different EC50 as presented in Figure 1h-j.
+[**F1h_EC50.R**](https://github.com/mo-yoda/Drube_2021/blob/main/Statistical_Analysis/F1h_EC50.R):
+Comparison of different EC50 as presented in Figure 1h-j.
 
-[**F2g,h_SF6c,e_confocal.R**](https://github.com/mo-yoda/Drube_2021/blob/main/Statistical_Analysis/F2g%2Ch_SF6c%2Ce_confocal.R)
-: Comparison of colocalisation quantified from confocal microscopy before and after stimulation (Figure 2g ,h and 
+[**F2g,h_SF6c,e_confocal.R**](https://github.com/mo-yoda/Drube_2021/blob/main/Statistical_Analysis/F2g%2Ch_SF6c%2Ce_confocal.R):
+Comparison of colocalisation quantified from confocal microscopy before and after stimulation (Figure 2g ,h and 
 Supplementary Figure 6c, e).
 
+
+[**F4_SF9_ST4_AT1R.R**](https://github.com/mo-yoda/Drube_2021/blob/main/Statistical_Analysis/F4_SF9_ST4_AT1R.R):
+ 
+Beta-arrestin recruitment to AT1R under various conditions is presented in Figure4, Supplementary Figure 9 and 10.
+Statistical analy
