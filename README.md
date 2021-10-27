@@ -45,6 +45,9 @@ was employed (Supplementary Figure 5).
 Potential phosphorylation sites (P), clusters (PPP, PXPP) and patterns (PXPXXP, PXXPXXP) were identified in 
 the intracellular loop 3 (IL3) and the C-terminus (C-term) of the investigated GPCRs using 
 [**moving_frame.py**](https://github.com/mo-yoda/Drube_2021/blob/main/Phosphorylation_pattern/moving_frame.py).
+
+
+
 The number of identified phosphorylation sites, clusters and patterns are listed as part of Supplementary Table 2.
 The count and relative position of these phosphorylation sites were visualized grouped by GRK-preference or class 
 of GPCR 
@@ -53,8 +56,19 @@ Generated plots are presented in Figure 5. A possible association between the re
 GRK-preference or class of the GPCR was investigated in 
 [**F5_Fisher_details.R**](https://github.com/mo-yoda/Drube_2021/blob/main/Statistical_Analysis/F5_Fisher_details.R).
 
-
 ### Statistical Analysis of Miscellaneous Datasets
+Data processed with the following scripts was imported in following format in which each signal recorded 
+by the respective method ("Output") can be linked to a certain factor which was variied between the samples 
+("Condition"). A within factor variable ("State") was included for data measured before and after GPCR stimulation.
+
+| Condition | State | Output |
+| ----------- | ----------- | ----------- |
+| dQ+EV | baseline | 1.03923 |
+| dQ+EV | stimulated | 0.81442 |
+| dQ+GRK2 | baseline | 1.93874|
+| dQ+GRK2 | stimulated | 1.51442 |
+
+
 [**F1d,f_SF2c_GRK_expression.R**](https://github.com/mo-yoda/Drube_2021/blob/main/Statistical_Analysis/F1d%2Cf_SF2c_GRK_expression.R):
 Statistical analysis of GRK expression data presented in Figure 1d, f and Supplementary Figure 2c was statistically analysed.
 
@@ -79,4 +93,3 @@ Statistical analysis of datasets presented in Supplementary Figure 1b, e and g.
 Statstical analysis of beta-arrestin recruitment to V2R (Supplementary Figure 8) and AT1R 
 (Supplementary Figure 9d and f) in presence of catalitically inactive GRKs or endogenous expression 
 of one specific GRK isoform.
-
