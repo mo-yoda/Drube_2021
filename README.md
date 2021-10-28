@@ -32,7 +32,7 @@ as the manuscript is published, it will be linked here.
 
 ### Statistical Analysis of all twelve tested GPCRs
 [**ST1_vehicle_vs_stim.R**](https://github.com/mo-yoda/Drube_2021/blob/main/Statistical_Analysis/ST1_vehicle_vs_stim.R)
-: All concentration response curves presented, were statistically analysed using to determine functional recruitment. 
+: All concentration response curves presented, were statistically analysed to determine functional recruitment. 
 Results are listed in Supplementary Table 1.
 
 Beta-arrestin recruitment data from all twelve tested GPCRs (Supplementary Figure 4 and 5) was preprocessed using
@@ -53,7 +53,7 @@ Potential phosphorylation sites (P), clusters (PPP, PXPP
 ) were identified in 
 the intracellular loop 3 (IL3) and the C-terminus (C-term) of the investigated GPCRs using 
 [**moving_frame.py**](https://github.com/mo-yoda/Drube_2021/blob/main/Phosphorylation_pattern/moving_frame.py).
-Input data of following format was used as input in which each GPCR-barr pair is listed with their GRK preference, the 
+Data of following format was used as input in which each GPCR - beta-arrestin pair is listed with their GRK preference, the 
 class of the GPCR (according to 
 [Oakley et al. 1999](https://pubmed.ncbi.nlm.nih.gov/10542263/)
 ) and the IL3 or C-term amino acid sequence. Aminio acid sequences were obtained from [GPCRdb](https://gpcrdb.org/).
@@ -63,11 +63,10 @@ class of the GPCR (according to
 | b2AR | barr1 | GRK2356 | A | IL3 | GRFHVQNLSQVEQDGRTGHGLRRS |
 
 The number of identified phosphorylation sites, clusters and patterns are listed as part of Supplementary Table 2.
-The count and relative position of these phosphorylation sites were visualized grouped by GRK-preference or class 
-of GPCR 
+The count and relative position of these phosphorylation sites were visualized grouped by GRK preference or class 
 [**F5_pattern_analysis.R**](https://github.com/mo-yoda/Drube_2021/blob/main/Phosphorylation_pattern/F5_pattern_analysis.R). 
 Generated plots are presented in Figure 5. A possible association between the relative position of PXPP clusters and 
-GRK-preference or class of the GPCR was investigated in 
+GRK preference or class was investigated in 
 [**F5_Fisher_details.R**](https://github.com/mo-yoda/Drube_2021/blob/main/Statistical_Analysis/F5_Fisher_details.R).
 
 ### Statistical Analysis of Miscellaneous Datasets
@@ -87,15 +86,15 @@ by the respective method ("Output") can be linked to a certain factor which was 
 Statistical analysis of GRK expression data presented in Figure 1d, f and Supplementary Figure 2c was statistically analysed.
 
 [**F1h_EC50.R**](https://github.com/mo-yoda/Drube_2021/blob/main/Statistical_Analysis/F1h_EC50.R):
-Comparison of different EC50 as presented in Figure 1h-j.
+Comparison of several EC50 as presented in Figure 1h-j.
 
 [**F2g,h_SF6c,e_confocal.R**](https://github.com/mo-yoda/Drube_2021/blob/main/Statistical_Analysis/F2g%2Ch_SF6c%2Ce_confocal.R):
 Comparison of colocalisation quantified from confocal microscopy before and after stimulation (Figure 2g ,h and 
 Supplementary Figure 6c, e).
 
 [**F4_SF9_ST4_AT1R.R**](https://github.com/mo-yoda/Drube_2021/blob/main/Statistical_Analysis/F4_SF9_ST4_AT1R.R):
- Statistical analysis of beta-arrestin recruitment to AT1R under various conditions as presented in Figure4, 
-Supplementary Figure 9 and 10. Results are liste in Supplementary Table 4. Data was preprocessed before statistical 
+ Statistical analysis of beta-arrestin recruitment to AT1R under various conditions as presented in Figure 4, 
+Supplementary Figure 9 and 10. Results are listed in Supplementary Table 4. Data was preprocessed before statistical 
 analysis using
 [**compare_format.py**](https://github.com/mo-yoda/Drube_2021/blob/main/Preprocessing/compare_format.py).
 
