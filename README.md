@@ -38,11 +38,11 @@ Results are listed in Supplementary Table 1.
 Beta-arrestin recruitment data from all twelve tested GPCRs (Supplementary Figure 4 and 5) was preprocessed using
 [**curve_formatting.py**](https://github.com/mo-yoda/Drube_2021/blob/main/Preprocessing/curve_formatting.py). 
 Concentration response curves (Supplementary Figure 4) were analysed utilizing
-[**F2i_ST3_curve_analysis.R**](https://github.com/mo-yoda/Drube_2021/blob/main/Statistical_Analysis/F2i_ST3_curve_analysis.R). 
+[**F3i_ST3_curve_analysis.R**](https://github.com/mo-yoda/Drube_2021/blob/main/Statistical_Analysis/F3i_ST3_curve_analysis.R). 
 Results (Supplementary Table 3) were ultimately plotted as heatmap (Figure 2i, 
-[**F2i_heatmap.R**](https://github.com/mo-yoda/Drube_2021/blob/main/Statistical_Analysis/F2i_heatmap.R)). 
+[**F3i_heatmap.R**](https://github.com/mo-yoda/Drube_2021/blob/main/Statistical_Analysis/F3i_heatmap.R)). 
 To identify increased baselines 
-[**SF5_baseline_analysis.R**](https://github.com/mo-yoda/Drube_2021/blob/main/Statistical_Analysis/SF5_baseline_analysis.R)
+[**SF6,8_baseline_analysis.R**](https://github.com/mo-yoda/Drube_2021/blob/main/Statistical_Analysis/SF6,8_baseline_analysis.R)
 was employed (Supplementary Figure 5).
 
 ### Phosphorylation Pattern Analysis
@@ -64,10 +64,10 @@ class of the GPCR (according to
 
 The number of identified phosphorylation sites, clusters and patterns are listed as part of Supplementary Table 2.
 The count and relative position of these phosphorylation sites were visualized grouped by GRK preference or class 
-[**F5_pattern_analysis.R**](https://github.com/mo-yoda/Drube_2021/blob/main/Phosphorylation_pattern/F5_pattern_analysis.R). 
+[**F7_pattern_analysis.R**](https://github.com/mo-yoda/Drube_2021/blob/main/Phosphorylation_pattern/F7_pattern_analysis.R). 
 Generated plots are presented in Figure 5. A possible association between the relative position of PXPP clusters and 
 GRK preference or class was investigated in 
-[**F5_Fisher_details.R**](https://github.com/mo-yoda/Drube_2021/blob/main/Statistical_Analysis/F5_Fisher_details.R).
+[**F7_Fisher_details.R**](https://github.com/mo-yoda/Drube_2021/blob/main/Statistical_Analysis/F7_Fisher_details.R).
 
 ### Statistical Analysis of Miscellaneous Datasets
 Data processed with the following scripts was imported in following format in which each signal recorded 
@@ -82,29 +82,29 @@ by the respective method ("Output") can be linked to a certain factor which was 
 | dQ+GRK2 | stimulated | 1.51442 |
 
 
-[**F1d,f_SF2c_GRK_expression.R**](https://github.com/mo-yoda/Drube_2021/blob/main/Statistical_Analysis/F1d%2Cf_SF2c_GRK_expression.R):
+[**F1d,f_SF3c_GRK_expression.R**](https://github.com/mo-yoda/Drube_2021/blob/main/Statistical_Analysis/F1d%2Cf_SF3c_GRK_expression.R):
 Statistical analysis of GRK expression data presented in Figure 1d, f and Supplementary Figure 2c was statistically analysed.
 
-[**F1h_EC50.R**](https://github.com/mo-yoda/Drube_2021/blob/main/Statistical_Analysis/F1h_EC50.R):
+[**F2b,c,d_EC50.R**](https://github.com/mo-yoda/Drube_2021/blob/main/Statistical_Analysis/F2b,c,d_EC50.R):
 Comparison of several EC50 as presented in Figure 1h-j.
 
-[**F2g,h_SF6c,e_confocal.R**](https://github.com/mo-yoda/Drube_2021/blob/main/Statistical_Analysis/F2g%2Ch_SF6c%2Ce_confocal.R):
+[**F3g,h_SF7c,e_confocal.R**](https://github.com/mo-yoda/Drube_2021/blob/main/Statistical_Analysis/F3g%2Ch_SF7c%2Ce_confocal.R):
 Comparison of colocalisation quantified from confocal microscopy before and after stimulation (Figure 2g ,h and 
 Supplementary Figure 6c, e).
 
-[**F4_SF9_ST4_AT1R.R**](https://github.com/mo-yoda/Drube_2021/blob/main/Statistical_Analysis/F4_SF9_ST4_AT1R.R):
+[**F5_SF11_ST4_AT1R.R**](https://github.com/mo-yoda/Drube_2021/blob/main/Statistical_Analysis/F5_SF11_ST4_AT1R.R):
  Statistical analysis of beta-arrestin recruitment to AT1R under various conditions as presented in Figure 4, 
 Supplementary Figure 9 and 10. Results are listed in Supplementary Table 4. Data was preprocessed before statistical 
 analysis using
 [**compare_format.py**](https://github.com/mo-yoda/Drube_2021/blob/main/Preprocessing/compare_format.py).
 
-[**SF12_Losartan_Tolvaptan_analysis.R**](https://github.com/mo-yoda/Drube_2021/blob/main/Statistical_Analysis/SF12_Losartan_Tolvaptan_analysis.R):
+[**SF13_Losartan_Tolvaptan_analysis.R**](https://github.com/mo-yoda/Drube_2021/blob/main/Statistical_Analysis/SF13_Losartan_Tolvaptan_analysis.R):
 Statistical analysis of beta-arrestin recruitment under application of inverse agonists as displayed in Supplementary Figure 12.
 
-[**SF1_stats.R**](https://github.com/mo-yoda/Drube_2021/blob/main/Statistical_Analysis/SF1_stats.R):
+[**SF1,2_stats.R**](https://github.com/mo-yoda/Drube_2021/blob/main/Statistical_Analysis/SF1%2C2_stats.R):
 Statistical analysis of datasets presented in Supplementary Figure 1b, e and g.
 
-[**SF8_V2R_endo_KD_analysis.R**](https://github.com/mo-yoda/Drube_2021/blob/main/Statistical_Analysis/SF8_V2R_endo_KD_analysis.R):
+[**SF9,10d,f_V2R_endo_KD_analysis.R**](https://github.com/mo-yoda/Drube_2021/blob/main/Statistical_Analysis/SF9%2C10d%2Cf_V2R_endo_KD_analysis.R):
 Statstical analysis of beta-arrestin recruitment to V2R (Supplementary Figure 8) and AT1R 
 (Supplementary Figure 9d and f) in presence of catalitically inactive GRKs or endogenous expression 
 of one specific GRK isoform.
