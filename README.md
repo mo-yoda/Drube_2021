@@ -1,14 +1,12 @@
 # Visualisation and Statistical Analysis
-## GRK2/3/5/6 knockout: The impact of individual GRKs on arrestin-binding and GPCR regulation
+## GPCR kinse knockout cells reveal the impact of individual GRKs on arrestin-binding and GPCR regulation
 
 Julia Drube*[1] , Raphael Silvanus Haider*[1] , Edda Sofie Fabienne Matthees[1], Mona Reichel[1], 
 Julian Zeiner[2], Sebastian Fritzwanker[3], Clara Ziegler[1], Saskia Barz[1], Laura Klement[1],
 Jenny Filor[1], Verena Weitzel[1], Andrea Kliewer[3], Elke Miess[3], Evi Kostenis[3], 
 Stefan Schulz[3] and Carsten Hoffmann[1]
 
-DOI: https://doi.org/10.1101/2021.02.12.430971
-
-[Preprint Available](https://www.biorxiv.org/content/10.1101/2021.02.12.430971v1)
+[DOI: 10.1038/s41467-022-28152-8](https://doi.org/10.1038/s41467-022-28152-8)
 
 
 [1]: Institut für Molekulare Zellbiologie, CMB – Center for Molecular Biomedicine, Universitätsklinikum Jena, Friedrich-Schiller-Universität Jena, Hans-Knöll Straße 2, D-07745 Jena, Germany
@@ -23,9 +21,7 @@ DOI: https://doi.org/10.1101/2021.02.12.430971
 
 
 This code was written and used for statistical analysis and visualisation of data included in 
-[Drube et al. 2021](https://doi.org/10.1101/2021.02.12.430971). Since part of the code was 
-expanded during the revision process, figure references might not be available in the preprint. As soon
-as the manuscript is published, it will be linked here.
+[Drube et al. 2021](https://doi.org/10.1038/s41467-022-28152-8).
 
 
 ---
