@@ -6,8 +6,7 @@ Julian Zeiner[2], Sebastian Fritzwanker[3], Clara Ziegler[1], Saskia Barz[1], La
 Jenny Filor[1], Verena Weitzel[1], Andrea Kliewer[3], Elke Miess[3], Evi Kostenis[3], 
 Stefan Schulz[3] and Carsten Hoffmann[1]
 
-[DOI: 10.1038/s41467-022-28152-8](https://doi.org/10.1038/s41467-022-28152-8)
-
+[![DOI: 10.1038/s41467-022-28152-8](https://zenodo.org/badge/DOI/10.1038/s41467-022-28152-8.svg)](https://doi.org/10.1038/s41467-022-28152-8)
 
 [1]: Institut für Molekulare Zellbiologie, CMB – Center for Molecular Biomedicine, Universitätsklinikum Jena, Friedrich-Schiller-Universität Jena, Hans-Knöll Straße 2, D-07745 Jena, Germany
 
@@ -21,8 +20,7 @@ Stefan Schulz[3] and Carsten Hoffmann[1]
 
 
 This code was written and used for statistical analysis and visualisation of data included in 
-[Drube et al. 2021](https://doi.org/10.1038/s41467-022-28152-8).
-
+[Drube et al. 2021](https://doi.org/10.1038/s41467-022-28152-8). 
 
 ---
 
