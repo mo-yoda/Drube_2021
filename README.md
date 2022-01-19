@@ -20,7 +20,7 @@ Stefan Schulz[3] and Carsten Hoffmann[1]
 
 
 This code was written and used for statistical analysis and visualisation of data included in 
-[Drube et al. 2021](https://doi.org/10.1038/s41467-022-28152-8). 
+[Drube et al. 2021](https://doi.org/10.1038/s41467-022-28152-8). Cite this code [![DOI: 10.5281/zenodo.5764248](https://zenodo.org/badge/DOI/10.5281/zenodo.5764248.svg)]
 
 ---
 
